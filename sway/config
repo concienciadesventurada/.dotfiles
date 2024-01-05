@@ -1,34 +1,21 @@
-# Default config for sway
-#
-# Copy this to ~/.config/sway/config and edit it to your liking.
-#
-# Read `man 5 sway` for a complete reference.
-
-### Variables
-#
-# Logo key. Use Mod1 for Alt.
+exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY DISPLAY SWAYSOCK XDG_CURRENT_DESKTOP=sway XDG_SESSION_DESKTOP=sway
+# VARIABLES
 set $super Mod4
 set $alt Mod1
-# Home row direction keys, like vim
 set $left h
 set $down j
 set $up k
 set $right l
-# Your preferred terminal emulator
 set $term kitty
-# Your preferred application launcher
-# Note: pass the final command to swaymsg so that the resulting window can be opened
-# on the original workspace that the command was run on.
-set $menu dmenu_path | dmenu | xargs swaymsg exec --
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-#
+output * bg /home/matias/Documents/lains_room.jpg fill
+
 # Example configuration:
 #
-#   output HDMI-A-1 resolution 1920x1080 position 1920,0
+# output HDMI-A-1 resolution 1920x1080 position 0,0
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
@@ -41,38 +28,23 @@ exec swayidle -w \
          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
          before-sleep 'swaylock -f -c 000000'
 
-# This will lock your screen after 300 seconds of inactivity, then turn off
-# your displays after another 300 seconds, and turn your screens back on when
-# resumed. It will also lock your screen before your computer goes to sleep.
-
-### Input configuration
-#
-# Example configuration:
-#
-#   input "2:14:SynPS/2_Synaptics_TouchPad" {
-#       dwt enabled
-#       tap enabled
-#       natural_scroll enabled
-#       middle_emulation enabled
-#   }
 input type:keyboard {
     xkb_layout "us,es"
     xkb_options "ctrl:swapcaps,grp:win_space_toggle"
 }
-#
-# You can get the names of your inputs by running: swaymsg -t get_inputs
-# Read `man 5 sway-input` for more information about this section.
 
 ### Key bindings
 #
 # Basics:
 #
-    # Start a terminal
     bindsym $super+Return exec $term
     bindsym $super+b exec firefox
     bindsym $alt+Ctrl+s exec flameshot
     bindsym $super+e exec nautilus
     bindsym $super+q exec keepassxc
+    bindsym $super+c exec galculator
+    bindsym $super+d exec $menu
+    bindsym $alt+q kill
 
     bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +1%
     bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -1%
@@ -84,12 +56,6 @@ input type:keyboard {
     bindsym XF86AudioNext exec playerctl next
     bindsym XF86AudioPrev exec playerctl previous
     bindsym XF86Search exec bemenu-run
-
-    # Kill focused window
-    bindsym $alt+q kill
-
-    # Start your launcher
-    bindsym $super+d exec $menu
 
     # Drag floating windows by holding down $super and left mouse button.
     # Resize them with right mouse button + $super.
@@ -157,6 +123,17 @@ input type:keyboard {
 
     bindgesture swipe:right workspace prev
     bindgesture swipe:left workspace next 
+
+#
+# Window rules
+#
+
+for_window [title=bt] floating enable, border pixel 2px, move absolute position 1200 30, resize set width 400px height 600px
+
+for_window [app_id=pavucontrol] floating enable, border pixel 2px, move absolute position 950 130, resize set width 400px height 600px
+
+for_window [app_id=org.keepassxc.KeePassXC] move scratchpad
+
 #
 # Layout stuff:
 #
@@ -194,10 +171,6 @@ input type:keyboard {
     # Show the next scratchpad window or hide the focused scratchpad window.
     # If there are multiple scratchpad windows, this command cycles through them.
     bindsym $alt+minus scratchpad show
-
-    for_window [title=bt] floating enable, border pixel 2px, move absolute position 1200 30, resize set width 400px height 600px
-
-    for_window [app_id=pavucontrol] floating enable, border pixel 2px, move absolute position 950 130, resize set width 400px height 600px
 
 #
 # Resizing containers:
