@@ -1,0 +1,93 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240221_225423
+====================================================================================================
+
+0     |Info:    Found file: blanco.orp attempting to validate header
+0     |Info:    Valid v4 profile found for blanco
+0     |Info:    Found file: amarillito.orp attempting to validate header
+0     |Info:    Valid v4 profile found for amarillito
+0     |Info:    Found file: apagap.orp attempting to validate header
+0     |Info:    Valid v4 profile found for apagap
+0     |Info:    Found file: naranjito.orp attempting to validate header
+0     |Info:    Valid v4 profile found for naranjito
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Initializing HID interfaces: Success
+1006  |Info:    ------------------------------------------------------
+1006  |Info:    |             Detecting I2C interfaces               |
+1006  |Info:    ------------------------------------------------------
+1006  |Info:    Registering I2C interface: /dev/i2c-3 Device 1022:790B Subsystem: 1458:5001
+1006  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1006  |Info:    Registering I2C interface: /dev/i2c-20 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    Registering I2C interface: /dev/i2c-10 Device 1002:73FF Subsystem: 1EAE:6505
+1006  |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+1006  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1006  |Info:    Registering I2C interface: /dev/i2c-19 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    Registering I2C interface: /dev/i2c-17 Device 1002:164E Subsystem: 1458:D000
+1006  |Info:    Registering I2C interface: /dev/i2c-8 Device 1002:73FF Subsystem: 1EAE:6505
+1006  |Info:    Registering I2C interface: /dev/i2c-15 Device 1002:164E Subsystem: 1458:D000
+1006  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73FF Subsystem: 1EAE:6505
+1006  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1006  |Info:    Registering I2C interface: /dev/i2c-13 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    Registering I2C interface: /dev/i2c-4 Device 1022:790B Subsystem: 1458:5001
+1006  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1006  |Info:    Registering I2C interface: /dev/i2c-11 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1458:5001
+1006  |Info:    Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+1006  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1006  |Info:    Registering I2C interface: /dev/i2c-18 Device 0000:0000 Subsystem: 0000:0000
+1007  |Info:    Registering I2C interface: /dev/i2c-9 Device 1002:73FF Subsystem: 1EAE:6505
+1007  |Info:    Registering I2C interface: /dev/i2c-16 Device 1002:164E Subsystem: 1458:D000
+1007  |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:73FF Subsystem: 1EAE:6505
+1007  |Info:    Registering I2C interface: /dev/i2c-14 Device 1002:164E Subsystem: 1458:D000
+1007  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73FF Subsystem: 1EAE:6505
+1007  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1007  |Info:    Registering I2C interface: /dev/i2c-12 Device 0000:0000 Subsystem: 0000:0000
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |               Detecting I2C devices                |
+1007  |Info:    ------------------------------------------------------
+1984  |Info:    [Corsair Dominator Platinum] Registering RGB controller
+2007  |Info:    [Corsair Dominator Platinum] Registering RGB controller
+2060  |Info:    ------------------------------------------------------
+2060  |Info:    |               Detecting I2C PCI devices            |
+2060  |Info:    ------------------------------------------------------
+2061  |Info:    ------------------------------------------------------
+2061  |Info:    |               Detecting HID devices                |
+2061  |Info:    ------------------------------------------------------
+2240  |Info:    [B650 AORUS ELITE AX ICE] Registering RGB controller
+2297  |Info:    [Lian Li Uni Hub - SL V2] Registering RGB controller
+2297  |Info:    ------------------------------------------------------
+2297  |Info:    |            Detecting libusb HID devices            |
+2297  |Info:    ------------------------------------------------------
+2333  |Info:    ------------------------------------------------------
+2333  |Info:    |              Detecting other devices               |
+2333  |Info:    ------------------------------------------------------
+2339  |Info:    ------------------------------------------------------
+2339  |Info:    |                Detection completed                 |
+2339  |Info:    ------------------------------------------------------
+6810  |Info:    Found file: blanco.orp attempting to validate header
+6810  |Info:    Valid v4 profile found for blanco
+6810  |Info:    Found file: amarillito.orp attempting to validate header
+6810  |Info:    Valid v4 profile found for amarillito
+6810  |Info:    Found file: apagap.orp attempting to validate header
+6810  |Info:    Valid v4 profile found for apagap
+6810  |Info:    Found file: naranjito.orp attempting to validate header
+6811  |Info:    Valid v4 profile found for naranjito
+7971  |Info:    Profile loading: Succeeded for Corsair Dominator Platinum @ I2C: /dev/i2c-2, address 0x19
+7971  |Info:    Profile loading: Succeeded for Corsair Dominator Platinum @ I2C: /dev/i2c-2, address 0x1B
+7971  |Info:    Profile loading: Succeeded for B650 AORUS ELITE AX ICE @ HID: /dev/hidraw6
+7971  |Info:    Profile loading: Succeeded for Lian Li Uni Hub - SL V2 @ HID: /dev/hidraw1
+13329 |Info:    Profile loading: Succeeded for Corsair Dominator Platinum @ I2C: /dev/i2c-2, address 0x19
+13329 |Info:    Profile loading: Succeeded for Corsair Dominator Platinum @ I2C: /dev/i2c-2, address 0x1B
+13329 |Info:    Profile loading: Succeeded for B650 AORUS ELITE AX ICE @ HID: /dev/hidraw6
+13329 |Info:    Profile loading: Succeeded for Lian Li Uni Hub - SL V2 @ HID: /dev/hidraw1
+16311 |Info:    Profile loading: Succeeded for Corsair Dominator Platinum @ I2C: /dev/i2c-2, address 0x19
+16311 |Info:    Profile loading: Succeeded for Corsair Dominator Platinum @ I2C: /dev/i2c-2, address 0x1B
+16311 |Info:    Profile loading: Succeeded for B650 AORUS ELITE AX ICE @ HID: /dev/hidraw6
+16311 |Info:    Profile loading: Succeeded for Lian Li Uni Hub - SL V2 @ HID: /dev/hidraw1
+18025 |Info:    Profile loading: Succeeded for Corsair Dominator Platinum @ I2C: /dev/i2c-2, address 0x19
+18025 |Info:    Profile loading: Succeeded for Corsair Dominator Platinum @ I2C: /dev/i2c-2, address 0x1B
+18025 |Info:    Profile loading: Succeeded for B650 AORUS ELITE AX ICE @ HID: /dev/hidraw6
+18025 |Info:    Profile loading: Succeeded for Lian Li Uni Hub - SL V2 @ HID: /dev/hidraw1

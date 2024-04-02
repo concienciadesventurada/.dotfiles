@@ -1,0 +1,131 @@
+{
+    "layer": "top",
+    "output": "HDMI-A-1",
+    "modules-left": ["group/workspaces-container", "custom/separator", "hyprland/window", "hyprland/mode"],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio", "group/connectivity", "group/hardware", "hyprland/language", "tray"],
+    "hyprland/workspaces": {
+        "format": "<b>{icon}</b> {windows}",
+        "format-icons": {
+            "special": "<b>=></b>  ",
+            "urgent": ""
+        },
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
+        "window-rewrite": {
+            "class<firefox>": "",
+            "kitty": "",
+            "thunar": "",
+            "steam": "",
+            "keepassxc": "",
+            "libreoffice": "",
+            "discord": "",
+            "WebCord": "",
+            "slack": "",
+            "vlc": "",
+            "qbittorrent": "",
+            "spotify": "",
+            "galculator": "",
+            "minecraft": ""
+        },
+        "show-special": true
+    },
+    "group/workspaces-container": {
+        "modules": ["hyprland/workspaces"]
+    },
+    "hyprland/window": {
+        "max-length": 20
+    },
+    "pulseaudio": {
+        "format": " {volume}%",
+        "format-muted": " {}"
+    },
+    "disk": {
+        "format": " {percentage_used}%",
+        "format-alt": " <b>{path}</b> {used} / {total}",
+        "interval": 60,
+        "path": "/home"
+    },
+    "clock": {
+        "format": " {:%H:%M}",
+        // "format-icons": ["", "", "", "", "", "", "", "", "", "",],
+        "format-alt": " {:%A %d, %B -  %H:%M:%S}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+            "mode": "month",
+            "mode-mon-col": 3,
+            "on-scroll": 1,
+            "on-click-right": "mode",
+            "format": {
+                "months": "<span color='#ffead3'><b>{}</b></span>",
+                "days": "<span color='#ecc6d9'><b>{}</b></span>",
+                "weeks": "<span color='#99ffdd'><b>W{}</b></span>",
+                "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+                "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+            }
+        },
+        "actions":  {
+            "on-click-right": "mode",
+            "on-click-forward": "tz_up",
+            "on-click-backward": "tz_down",
+            "on-scroll-up": "shift_up",
+            "on-scroll-down": "shift_down"
+        },
+        "interval": 1
+    },
+    "bluetooth": {
+        "format": "",
+        "format-connected": "",
+        "format-connected-battery": "",
+        // "format-device-preference": [ "device1", "device2" ], // preference list deciding the displayed device
+        "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+        "tooltip-format-connected": "{controller_alias}\n\n{num_connections} connected\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}",
+        "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_battery_percentage}%"
+    },
+    "network": {
+        "interface": "enp10s0",
+        "format-ethernet": "",
+        "format-disconnected": "{ifname}",
+        "tooltip-format": " {bandwidthDownBytes} <b>/</b>  {bandwidthUpBytes}",
+        "interval": 1
+    },
+    "cpu": {
+        "format": " {usage}%",
+        "interval": 1
+    },
+    "memory": {
+        "format": " {percentage}%",
+        "interval": 1
+    },
+    "hyprland/language": {
+        "format": "{short}"
+    },
+    "tray": {
+        "icon-size": 18,
+        "spacing": 10
+    },
+    "custom/separator": {
+        "format": "|"
+    },
+    "custom/slash": {
+        "format": "/"
+    },
+    "group/hardware": {
+        "orientation": "horizontal",
+        "modules": [
+            "cpu",
+            "custom/slash",
+            "memory",
+            "custom/slash",
+            "disk"
+        ]
+    },
+    "group/connectivity": {
+        "orientation": "horizontal",
+        "modules": [
+            "bluetooth",
+            "network"
+        ]
+    }
+}

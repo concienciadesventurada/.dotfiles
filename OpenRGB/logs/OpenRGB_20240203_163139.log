@@ -1,0 +1,107 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240203_163139
+====================================================================================================
+
+1012  |Info:    ------------------------------------------------------
+1012  |Info:    |               Start device detection               |
+1012  |Info:    ------------------------------------------------------
+1012  |Info:    Initializing HID interfaces: Success
+1018  |Info:    ------------------------------------------------------
+1018  |Info:    |             Detecting I2C interfaces               |
+1018  |Info:    ------------------------------------------------------
+1018  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73FF Subsystem: 1EAE:6505
+1018  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1018  |Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+1018  |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+1018  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1018  |Info:    Registering I2C interface: /dev/i2c-17 Device 0000:0000 Subsystem: 0000:0000
+1018  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1018  |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+1018  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1018  |Info:    Registering I2C interface: /dev/i2c-15 Device 0000:0000 Subsystem: 0000:0000
+1018  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73FF Subsystem: 1EAE:6505
+1018  |Info:    Registering I2C interface: /dev/i2c-13 Device 1002:164E Subsystem: 1458:D000
+1018  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73FF Subsystem: 1EAE:6505
+1018  |Info:    Registering I2C interface: /dev/i2c-11 Device 1002:164E Subsystem: 1458:D000
+1018  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:73FF Subsystem: 1EAE:6505
+1018  |Info:    Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+1018  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1018  |Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+1018  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1019  |Info:    Registering I2C interface: /dev/i2c-16 Device 0000:0000 Subsystem: 0000:0000
+1019  |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:73FF Subsystem: 1EAE:6505
+1019  |Info:    Registering I2C interface: /dev/i2c-14 Device 1002:164E Subsystem: 1458:D000
+1019  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73FF Subsystem: 1EAE:6505
+1019  |Info:    Registering I2C interface: /dev/i2c-12 Device 1002:164E Subsystem: 1458:D000
+1019  |Info:    ------------------------------------------------------
+1019  |Info:    |               Detecting I2C devices                |
+1019  |Info:    ------------------------------------------------------
+1051  |Info:    ------------------------------------------------------
+1051  |Info:    |               Detecting I2C PCI devices            |
+1051  |Info:    ------------------------------------------------------
+1052  |Info:    ------------------------------------------------------
+1052  |Info:    |               Detecting HID devices                |
+1052  |Info:    ------------------------------------------------------
+1235  |Info:    [B650 AORUS ELITE AX ICE] Registering RGB controller
+1235  |Info:    ------------------------------------------------------
+1235  |Info:    |            Detecting libusb HID devices            |
+1235  |Info:    ------------------------------------------------------
+1260  |Info:    ------------------------------------------------------
+1260  |Info:    |              Detecting other devices               |
+1260  |Info:    ------------------------------------------------------
+1267  |Info:    ------------------------------------------------------
+1267  |Info:    |                Detection completed                 |
+1267  |Info:    ------------------------------------------------------
+65215 |Info:    ------------------------------------------------------
+65215 |Info:    |               Start device detection               |
+65215 |Info:    ------------------------------------------------------
+65215 |Info:    Initializing HID interfaces: Success
+65219 |Info:    ------------------------------------------------------
+65219 |Info:    |             Detecting I2C interfaces               |
+65219 |Info:    ------------------------------------------------------
+65219 |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73FF Subsystem: 1EAE:6505
+65219 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+65219 |Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+65219 |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+65219 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+65219 |Info:    Registering I2C interface: /dev/i2c-17 Device 0000:0000 Subsystem: 0000:0000
+65220 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+65220 |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+65220 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+65220 |Info:    Registering I2C interface: /dev/i2c-15 Device 0000:0000 Subsystem: 0000:0000
+65220 |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73FF Subsystem: 1EAE:6505
+65220 |Info:    Registering I2C interface: /dev/i2c-13 Device 1002:164E Subsystem: 1458:D000
+65220 |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73FF Subsystem: 1EAE:6505
+65220 |Info:    Registering I2C interface: /dev/i2c-11 Device 1002:164E Subsystem: 1458:D000
+65220 |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:73FF Subsystem: 1EAE:6505
+65220 |Info:    Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+65220 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+65220 |Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+65220 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+65220 |Info:    Registering I2C interface: /dev/i2c-16 Device 0000:0000 Subsystem: 0000:0000
+65220 |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:73FF Subsystem: 1EAE:6505
+65220 |Info:    Registering I2C interface: /dev/i2c-14 Device 1002:164E Subsystem: 1458:D000
+65220 |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73FF Subsystem: 1EAE:6505
+65220 |Info:    Registering I2C interface: /dev/i2c-12 Device 1002:164E Subsystem: 1458:D000
+65220 |Info:    ------------------------------------------------------
+65220 |Info:    |               Detecting I2C devices                |
+65220 |Info:    ------------------------------------------------------
+65252 |Info:    ------------------------------------------------------
+65252 |Info:    |               Detecting I2C PCI devices            |
+65252 |Info:    ------------------------------------------------------
+65253 |Info:    ------------------------------------------------------
+65253 |Info:    |               Detecting HID devices                |
+65253 |Info:    ------------------------------------------------------
+65433 |Info:    [B650 AORUS ELITE AX ICE] Registering RGB controller
+65433 |Info:    ------------------------------------------------------
+65433 |Info:    |            Detecting libusb HID devices            |
+65433 |Info:    ------------------------------------------------------
+65445 |Info:    ------------------------------------------------------
+65445 |Info:    |              Detecting other devices               |
+65445 |Info:    ------------------------------------------------------
+65446 |Info:    ------------------------------------------------------
+65446 |Info:    |                Detection completed                 |
+65446 |Info:    ------------------------------------------------------
+131139|Info:    Found file: test.orp attempting to validate header
+131139|Info:    Valid v4 profile found for test

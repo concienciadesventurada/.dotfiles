@@ -1,0 +1,73 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240319_201053
+====================================================================================================
+
+0     |Info:    Found file: rosadito.orp attempting to validate header
+0     |Info:    Valid v4 profile found for rosadito
+0     |Info:    Found file: blanco.orp attempting to validate header
+0     |Info:    Valid v4 profile found for blanco
+0     |Info:    Found file: amarillito.orp attempting to validate header
+0     |Info:    Valid v4 profile found for amarillito
+0     |Info:    Found file: stacy.orp attempting to validate header
+0     |Info:    Valid v4 profile found for stacy
+0     |Info:    Found file: apagap.orp attempting to validate header
+0     |Info:    Valid v4 profile found for apagap
+0     |Info:    Found file: naranjito.orp attempting to validate header
+0     |Info:    Valid v4 profile found for naranjito
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Initializing HID interfaces: Success
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    |             Detecting I2C interfaces               |
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    Registering I2C interface: /dev/i2c-3 Device 1022:790B Subsystem: 1458:5001
+1005  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1005  |Info:    Registering I2C interface: /dev/i2c-20 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-10 Device 1002:73FF Subsystem: 1EAE:6505
+1005  |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+1005  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1005  |Info:    Registering I2C interface: /dev/i2c-19 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-17 Device 1002:164E Subsystem: 1458:D000
+1005  |Info:    Registering I2C interface: /dev/i2c-8 Device 1002:73FF Subsystem: 1EAE:6505
+1005  |Info:    Registering I2C interface: /dev/i2c-15 Device 1002:164E Subsystem: 1458:D000
+1005  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73FF Subsystem: 1EAE:6505
+1005  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1005  |Info:    Registering I2C interface: /dev/i2c-13 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-4 Device 1022:790B Subsystem: 1458:5001
+1005  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1005  |Info:    Registering I2C interface: /dev/i2c-11 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1458:5001
+1005  |Info:    Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+1005  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1005  |Info:    Registering I2C interface: /dev/i2c-18 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-9 Device 1002:73FF Subsystem: 1EAE:6505
+1006  |Info:    Registering I2C interface: /dev/i2c-16 Device 1002:164E Subsystem: 1458:D000
+1006  |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:73FF Subsystem: 1EAE:6505
+1006  |Info:    Registering I2C interface: /dev/i2c-14 Device 1002:164E Subsystem: 1458:D000
+1006  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73FF Subsystem: 1EAE:6505
+1006  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1006  |Info:    Registering I2C interface: /dev/i2c-12 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    ------------------------------------------------------
+1006  |Info:    |               Detecting I2C devices                |
+1006  |Info:    ------------------------------------------------------
+1989  |Info:    [Corsair Dominator Platinum] Registering RGB controller
+2012  |Info:    [Corsair Dominator Platinum] Registering RGB controller
+2065  |Info:    ------------------------------------------------------
+2065  |Info:    |               Detecting I2C PCI devices            |
+2065  |Info:    ------------------------------------------------------
+2065  |Info:    ------------------------------------------------------
+2065  |Info:    |               Detecting HID devices                |
+2065  |Info:    ------------------------------------------------------
+2065  |Info:    ------------------------------------------------------
+2065  |Info:    |            Detecting libusb HID devices            |
+2065  |Info:    ------------------------------------------------------
+2071  |Info:    ------------------------------------------------------
+2071  |Info:    |              Detecting other devices               |
+2071  |Info:    ------------------------------------------------------
+2076  |Info:    ------------------------------------------------------
+2076  |Info:    |                Detection completed                 |
+2076  |Info:    ------------------------------------------------------
+2076  |Info:    Profile loading: FAILED! for Corsair Dominator Platinum @ I2C: /dev/i2c-2, address 0x19
+2076  |Info:    Profile loading: FAILED! for Corsair Dominator Platinum @ I2C: /dev/i2c-2, address 0x1B

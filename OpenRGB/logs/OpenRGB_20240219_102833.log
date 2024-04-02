@@ -1,0 +1,115 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240219_102833
+====================================================================================================
+
+0     |Info:    Found file: blanco.orp attempting to validate header
+0     |Info:    Valid v4 profile found for blanco
+0     |Info:    Found file: amarillito.orp attempting to validate header
+0     |Info:    Valid v4 profile found for amarillito
+0     |Info:    Found file: naranjito.orp attempting to validate header
+0     |Info:    Valid v4 profile found for naranjito
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    |               Start device detection               |
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    Initializing HID interfaces: Success
+1010  |Info:    ------------------------------------------------------
+1011  |Info:    |             Detecting I2C interfaces               |
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73FF Subsystem: 1EAE:6505
+1011  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1011  |Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+1011  |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+1011  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1011  |Info:    Registering I2C interface: /dev/i2c-17 Device 0000:0000 Subsystem: 0000:0000
+1011  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1011  |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+1011  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1011  |Info:    Registering I2C interface: /dev/i2c-15 Device 0000:0000 Subsystem: 0000:0000
+1011  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73FF Subsystem: 1EAE:6505
+1011  |Info:    Registering I2C interface: /dev/i2c-13 Device 1002:164E Subsystem: 1458:D000
+1011  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73FF Subsystem: 1EAE:6505
+1011  |Info:    Registering I2C interface: /dev/i2c-11 Device 1002:164E Subsystem: 1458:D000
+1011  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:73FF Subsystem: 1EAE:6505
+1011  |Info:    Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+1011  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1011  |Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+1011  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1011  |Info:    Registering I2C interface: /dev/i2c-16 Device 0000:0000 Subsystem: 0000:0000
+1011  |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:73FF Subsystem: 1EAE:6505
+1012  |Info:    Registering I2C interface: /dev/i2c-14 Device 1002:164E Subsystem: 1458:D000
+1012  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73FF Subsystem: 1EAE:6505
+1012  |Info:    Registering I2C interface: /dev/i2c-12 Device 1002:164E Subsystem: 1458:D000
+1012  |Info:    ------------------------------------------------------
+1012  |Info:    |               Detecting I2C devices                |
+1012  |Info:    ------------------------------------------------------
+1044  |Info:    ------------------------------------------------------
+1044  |Info:    |               Detecting I2C PCI devices            |
+1044  |Info:    ------------------------------------------------------
+1044  |Info:    ------------------------------------------------------
+1044  |Info:    |               Detecting HID devices                |
+1044  |Info:    ------------------------------------------------------
+1223  |Info:    [B650 AORUS ELITE AX ICE] Registering RGB controller
+1287  |Info:    [Lian Li Uni Hub - SL V2] Registering RGB controller
+1287  |Info:    ------------------------------------------------------
+1287  |Info:    |            Detecting libusb HID devices            |
+1287  |Info:    ------------------------------------------------------
+1325  |Info:    ------------------------------------------------------
+1325  |Info:    |              Detecting other devices               |
+1325  |Info:    ------------------------------------------------------
+1332  |Info:    ------------------------------------------------------
+1332  |Info:    |                Detection completed                 |
+1332  |Info:    ------------------------------------------------------
+84171 |Info:    Profile loading: Succeeded for B650 AORUS ELITE AX ICE @ HID: /dev/hidraw7
+84171 |Info:    Profile loading: FAILED! for Lian Li Uni Hub - SL V2 @ HID: /dev/hidraw8
+259793|Info:    ------------------------------------------------------
+259793|Info:    |               Start device detection               |
+259793|Info:    ------------------------------------------------------
+259793|Info:    Initializing HID interfaces: Success
+259798|Info:    ------------------------------------------------------
+259798|Info:    |             Detecting I2C interfaces               |
+259798|Info:    ------------------------------------------------------
+259798|Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73FF Subsystem: 1EAE:6505
+259798|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+259798|Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+259798|Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+259798|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+259798|Info:    Registering I2C interface: /dev/i2c-17 Device 0000:0000 Subsystem: 0000:0000
+259798|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+259798|Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+259798|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+259798|Info:    Registering I2C interface: /dev/i2c-15 Device 0000:0000 Subsystem: 0000:0000
+259798|Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73FF Subsystem: 1EAE:6505
+259798|Info:    Registering I2C interface: /dev/i2c-13 Device 1002:164E Subsystem: 1458:D000
+259798|Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73FF Subsystem: 1EAE:6505
+259798|Info:    Registering I2C interface: /dev/i2c-11 Device 1002:164E Subsystem: 1458:D000
+259798|Info:    Registering I2C interface: /dev/i2c-2 Device 1002:73FF Subsystem: 1EAE:6505
+259798|Info:    Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+259798|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+259798|Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+259798|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+259798|Info:    Registering I2C interface: /dev/i2c-16 Device 0000:0000 Subsystem: 0000:0000
+259799|Info:    Registering I2C interface: /dev/i2c-7 Device 1002:73FF Subsystem: 1EAE:6505
+259799|Info:    Registering I2C interface: /dev/i2c-14 Device 1002:164E Subsystem: 1458:D000
+259799|Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73FF Subsystem: 1EAE:6505
+259799|Info:    Registering I2C interface: /dev/i2c-12 Device 1002:164E Subsystem: 1458:D000
+259799|Info:    ------------------------------------------------------
+259799|Info:    |               Detecting I2C devices                |
+259799|Info:    ------------------------------------------------------
+259830|Info:    ------------------------------------------------------
+259830|Info:    |               Detecting I2C PCI devices            |
+259830|Info:    ------------------------------------------------------
+259831|Info:    ------------------------------------------------------
+259831|Info:    |               Detecting HID devices                |
+259831|Info:    ------------------------------------------------------
+260007|Info:    [B650 AORUS ELITE AX ICE] Registering RGB controller
+260064|Info:    [Lian Li Uni Hub - SL V2] Registering RGB controller
+260064|Info:    ------------------------------------------------------
+260064|Info:    |            Detecting libusb HID devices            |
+260064|Info:    ------------------------------------------------------
+260094|Info:    ------------------------------------------------------
+260094|Info:    |              Detecting other devices               |
+260094|Info:    ------------------------------------------------------
+260094|Info:    ------------------------------------------------------
+260094|Info:    |                Detection completed                 |
+260094|Info:    ------------------------------------------------------

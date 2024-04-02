@@ -1,0 +1,82 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240131_200744
+====================================================================================================
+
+1001  |Info:    Saving detector settings
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |               Start device detection               |
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    Initializing HID interfaces: Success
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    |             Detecting I2C interfaces               |
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73FF Subsystem: 1EAE:6505
+1005  |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+1005  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1005  |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73FF Subsystem: 1EAE:6505
+1006  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73FF Subsystem: 1EAE:6505
+1006  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:73FF Subsystem: 1EAE:6505
+1006  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1006  |Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:73FF Subsystem: 1EAE:6505
+1006  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73FF Subsystem: 1EAE:6505
+1006  |Info:    ------------------------------------------------------
+1006  |Info:    |               Detecting I2C devices                |
+1006  |Info:    ------------------------------------------------------
+1016  |Info:    ------------------------------------------------------
+1016  |Info:    |               Detecting I2C PCI devices            |
+1016  |Info:    ------------------------------------------------------
+1017  |Info:    ------------------------------------------------------
+1017  |Info:    |               Detecting HID devices                |
+1017  |Info:    ------------------------------------------------------
+1203  |Info:    [B650 AORUS ELITE AX ICE] Registering RGB controller
+1203  |Info:    ------------------------------------------------------
+1203  |Info:    |            Detecting libusb HID devices            |
+1203  |Info:    ------------------------------------------------------
+1228  |Info:    ------------------------------------------------------
+1228  |Info:    |              Detecting other devices               |
+1228  |Info:    ------------------------------------------------------
+1233  |Info:    ------------------------------------------------------
+1233  |Info:    |                Detection completed                 |
+1233  |Info:    ------------------------------------------------------
+1233  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+302172|Info:    ------------------------------------------------------
+302172|Info:    |               Start device detection               |
+302172|Info:    ------------------------------------------------------
+302172|Info:    Initializing HID interfaces: Success
+302174|Info:    ------------------------------------------------------
+302174|Info:    |             Detecting I2C interfaces               |
+302174|Info:    ------------------------------------------------------
+302174|Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73FF Subsystem: 1EAE:6505
+302174|Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+302174|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+302174|Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+302174|Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73FF Subsystem: 1EAE:6505
+302174|Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73FF Subsystem: 1EAE:6505
+302175|Info:    Registering I2C interface: /dev/i2c-2 Device 1002:73FF Subsystem: 1EAE:6505
+302175|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+302175|Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+302175|Info:    Registering I2C interface: /dev/i2c-7 Device 1002:73FF Subsystem: 1EAE:6505
+302175|Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73FF Subsystem: 1EAE:6505
+302175|Info:    ------------------------------------------------------
+302175|Info:    |               Detecting I2C devices                |
+302175|Info:    ------------------------------------------------------
+302185|Info:    ------------------------------------------------------
+302185|Info:    |               Detecting I2C PCI devices            |
+302185|Info:    ------------------------------------------------------
+302185|Info:    ------------------------------------------------------
+302185|Info:    |               Detecting HID devices                |
+302185|Info:    ------------------------------------------------------
+302360|Info:    [B650 AORUS ELITE AX ICE] Registering RGB controller
+302360|Info:    ------------------------------------------------------
+302360|Info:    |            Detecting libusb HID devices            |
+302360|Info:    ------------------------------------------------------
+302371|Info:    ------------------------------------------------------
+302371|Info:    |              Detecting other devices               |
+302371|Info:    ------------------------------------------------------
+302372|Info:    ------------------------------------------------------
+302372|Info:    |                Detection completed                 |
+302372|Info:    ------------------------------------------------------
+302372|Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>

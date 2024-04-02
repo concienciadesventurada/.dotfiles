@@ -1,0 +1,132 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240218_112931
+====================================================================================================
+
+0     |Info:    Found file: blanco.orp attempting to validate header
+0     |Info:    Valid v4 profile found for blanco
+0     |Info:    Found file: amarillito.orp attempting to validate header
+0     |Info:    Valid v4 profile found for amarillito
+0     |Info:    Found file: test.orp attempting to validate header
+0     |Info:    Valid v4 profile found for test
+0     |Info:    Found file: naranjito.orp attempting to validate header
+0     |Info:    Valid v4 profile found for naranjito
+1012  |Info:    ------------------------------------------------------
+1012  |Info:    |               Start device detection               |
+1012  |Info:    ------------------------------------------------------
+1013  |Info:    Initializing HID interfaces: Success
+1018  |Info:    ------------------------------------------------------
+1018  |Info:    |             Detecting I2C interfaces               |
+1018  |Info:    ------------------------------------------------------
+1018  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73FF Subsystem: 1EAE:6505
+1018  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1018  |Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+1018  |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+1018  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1019  |Info:    Registering I2C interface: /dev/i2c-17 Device 0000:0000 Subsystem: 0000:0000
+1019  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1019  |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+1019  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1019  |Info:    Registering I2C interface: /dev/i2c-15 Device 0000:0000 Subsystem: 0000:0000
+1019  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73FF Subsystem: 1EAE:6505
+1019  |Info:    Registering I2C interface: /dev/i2c-13 Device 1002:164E Subsystem: 1458:D000
+1019  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73FF Subsystem: 1EAE:6505
+1019  |Info:    Registering I2C interface: /dev/i2c-11 Device 1002:164E Subsystem: 1458:D000
+1019  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:73FF Subsystem: 1EAE:6505
+1019  |Info:    Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+1019  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1019  |Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+1019  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1019  |Info:    Registering I2C interface: /dev/i2c-16 Device 0000:0000 Subsystem: 0000:0000
+1019  |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:73FF Subsystem: 1EAE:6505
+1019  |Info:    Registering I2C interface: /dev/i2c-14 Device 1002:164E Subsystem: 1458:D000
+1019  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73FF Subsystem: 1EAE:6505
+1019  |Info:    Registering I2C interface: /dev/i2c-12 Device 1002:164E Subsystem: 1458:D000
+1019  |Info:    ------------------------------------------------------
+1019  |Info:    |               Detecting I2C devices                |
+1019  |Info:    ------------------------------------------------------
+1052  |Info:    ------------------------------------------------------
+1052  |Info:    |               Detecting I2C PCI devices            |
+1052  |Info:    ------------------------------------------------------
+1052  |Info:    ------------------------------------------------------
+1052  |Info:    |               Detecting HID devices                |
+1052  |Info:    ------------------------------------------------------
+1232  |Info:    [B650 AORUS ELITE AX ICE] Registering RGB controller
+1295  |Info:    [Lian Li Uni Hub - SL V2] Registering RGB controller
+1295  |Info:    ------------------------------------------------------
+1295  |Info:    |            Detecting libusb HID devices            |
+1295  |Info:    ------------------------------------------------------
+1332  |Info:    ------------------------------------------------------
+1332  |Info:    |              Detecting other devices               |
+1332  |Info:    ------------------------------------------------------
+1338  |Info:    ------------------------------------------------------
+1338  |Info:    |                Detection completed                 |
+1338  |Info:    ------------------------------------------------------
+26013 |Info:    Profile loading: Succeeded for B650 AORUS ELITE AX ICE @ HID: /dev/hidraw7
+26013 |Info:    Profile loading: FAILED! for Lian Li Uni Hub - SL V2 @ HID: /dev/hidraw8
+29188 |Info:    Profile loading: Succeeded for B650 AORUS ELITE AX ICE @ HID: /dev/hidraw7
+29188 |Info:    Profile loading: Succeeded for Lian Li Uni Hub - SL V2 @ HID: /dev/hidraw8
+119704|Info:    Profile loading: Succeeded for B650 AORUS ELITE AX ICE @ HID: /dev/hidraw7
+119704|Info:    Profile loading: Succeeded for Lian Li Uni Hub - SL V2 @ HID: /dev/hidraw8
+173655|Info:    Found file: blanco.orp attempting to validate header
+173655|Info:    Valid v4 profile found for blanco
+173655|Info:    Found file: amarillito.orp attempting to validate header
+173655|Info:    Valid v4 profile found for amarillito
+173655|Info:    Found file: test.orp attempting to validate header
+173655|Info:    Valid v4 profile found for test
+173655|Info:    Found file: naranjito.orp attempting to validate header
+173655|Info:    Valid v4 profile found for naranjito
+262984|Info:    Found file: blanco.orp attempting to validate header
+262984|Info:    Valid v4 profile found for blanco
+262984|Info:    Found file: amarillito.orp attempting to validate header
+262984|Info:    Valid v4 profile found for amarillito
+262984|Info:    Found file: test.orp attempting to validate header
+262984|Info:    Valid v4 profile found for test
+262984|Info:    Found file: naranjito.orp attempting to validate header
+262984|Info:    Valid v4 profile found for naranjito
+276042|Info:    Found file: blanco.orp attempting to validate header
+276042|Info:    Valid v4 profile found for blanco
+276042|Info:    Found file: amarillito.orp attempting to validate header
+276042|Info:    Valid v4 profile found for amarillito
+276042|Info:    Found file: test.orp attempting to validate header
+276042|Info:    Valid v4 profile found for test
+276042|Info:    Found file: naranjito.orp attempting to validate header
+276042|Info:    Valid v4 profile found for naranjito
+322266|Info:    Found file: blanco.orp attempting to validate header
+322266|Info:    Valid v4 profile found for blanco
+322266|Info:    Found file: amarillito.orp attempting to validate header
+322266|Info:    Valid v4 profile found for amarillito
+322266|Info:    Found file: test.orp attempting to validate header
+322266|Info:    Valid v4 profile found for test
+322266|Info:    Found file: naranjito.orp attempting to validate header
+322266|Info:    Valid v4 profile found for naranjito
+330371|Info:    Profile loading: Succeeded for B650 AORUS ELITE AX ICE @ HID: /dev/hidraw7
+330371|Info:    Profile loading: Succeeded for Lian Li Uni Hub - SL V2 @ HID: /dev/hidraw8
+353960|Info:    Found file: blanco.orp attempting to validate header
+353960|Info:    Valid v4 profile found for blanco
+353960|Info:    Found file: amarillito.orp attempting to validate header
+353960|Info:    Valid v4 profile found for amarillito
+353960|Info:    Found file: test.orp attempting to validate header
+353960|Info:    Valid v4 profile found for test
+353960|Info:    Found file: naranjito.orp attempting to validate header
+353960|Info:    Valid v4 profile found for naranjito
+490152|Info:    Found file: blanco.orp attempting to validate header
+490152|Info:    Valid v4 profile found for blanco
+490152|Info:    Found file: amarillito.orp attempting to validate header
+490152|Info:    Valid v4 profile found for amarillito
+490152|Info:    Found file: naranjito.orp attempting to validate header
+490152|Info:    Valid v4 profile found for naranjito
+497914|Info:    Profile loading: Succeeded for B650 AORUS ELITE AX ICE @ HID: /dev/hidraw7
+497914|Info:    Profile loading: FAILED! for Lian Li Uni Hub - SL V2 @ HID: /dev/hidraw8
+504152|Info:    Profile loading: Succeeded for B650 AORUS ELITE AX ICE @ HID: /dev/hidraw7
+504152|Info:    Profile loading: FAILED! for Lian Li Uni Hub - SL V2 @ HID: /dev/hidraw8
+512756|Info:    Profile loading: Succeeded for B650 AORUS ELITE AX ICE @ HID: /dev/hidraw7
+512756|Info:    Profile loading: Succeeded for Lian Li Uni Hub - SL V2 @ HID: /dev/hidraw8
+515392|Info:    Profile loading: Succeeded for B650 AORUS ELITE AX ICE @ HID: /dev/hidraw7
+515392|Info:    Profile loading: FAILED! for Lian Li Uni Hub - SL V2 @ HID: /dev/hidraw8
+528091|Info:    Found file: blanco.orp attempting to validate header
+528091|Info:    Valid v4 profile found for blanco
+528091|Info:    Found file: amarillito.orp attempting to validate header
+528091|Info:    Valid v4 profile found for amarillito
+528091|Info:    Found file: naranjito.orp attempting to validate header
+528091|Info:    Valid v4 profile found for naranjito

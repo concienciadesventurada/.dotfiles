@@ -1,0 +1,93 @@
+    OpenRGB v0.9
+    Commit: b5f46e3f1de03595656c682fc2f068b66e735e63 from 2023-07-09 22:51:47 -0500
+    Launched: 20240131_203312
+====================================================================================================
+
+1014  |Info:    ------------------------------------------------------
+1014  |Info:    |               Start device detection               |
+1014  |Info:    ------------------------------------------------------
+1015  |Info:    Initializing HID interfaces: Success
+1017  |Info:    ------------------------------------------------------
+1017  |Info:    |             Detecting I2C interfaces               |
+1017  |Info:    ------------------------------------------------------
+1017  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73FF Subsystem: 1EAE:6505
+1017  |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+1017  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1017  |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+1017  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73FF Subsystem: 1EAE:6505
+1017  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73FF Subsystem: 1EAE:6505
+1017  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:73FF Subsystem: 1EAE:6505
+1017  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1018  |Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+1018  |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:73FF Subsystem: 1EAE:6505
+1018  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73FF Subsystem: 1EAE:6505
+1018  |Info:    ------------------------------------------------------
+1018  |Info:    |               Detecting I2C devices                |
+1018  |Info:    ------------------------------------------------------
+1028  |Info:    ------------------------------------------------------
+1028  |Info:    |               Detecting I2C PCI devices            |
+1028  |Info:    ------------------------------------------------------
+1029  |Info:    ------------------------------------------------------
+1029  |Info:    |               Detecting HID devices                |
+1029  |Info:    ------------------------------------------------------
+1206  |Info:    [B650 AORUS ELITE AX ICE] Registering RGB controller
+1206  |Info:    ------------------------------------------------------
+1206  |Info:    |            Detecting libusb HID devices            |
+1206  |Info:    ------------------------------------------------------
+1222  |Info:    ------------------------------------------------------
+1222  |Info:    |              Detecting other devices               |
+1222  |Info:    ------------------------------------------------------
+1229  |Info:    ------------------------------------------------------
+1229  |Info:    |                Detection completed                 |
+1229  |Info:    ------------------------------------------------------
+1229  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+64140 |Info:    ------------------------------------------------------
+64140 |Info:    |               Start device detection               |
+64140 |Info:    ------------------------------------------------------
+64140 |Info:    Initializing HID interfaces: Success
+64143 |Info:    ------------------------------------------------------
+64143 |Info:    |             Detecting I2C interfaces               |
+64143 |Info:    ------------------------------------------------------
+64143 |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73FF Subsystem: 1EAE:6505
+64143 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+64143 |Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+64143 |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+64143 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+64143 |Info:    Registering I2C interface: /dev/i2c-17 Device 0000:0000 Subsystem: 0000:0000
+64143 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+64143 |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+64143 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+64143 |Info:    Registering I2C interface: /dev/i2c-15 Device 0000:0000 Subsystem: 0000:0000
+64143 |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:73FF Subsystem: 1EAE:6505
+64144 |Info:    Registering I2C interface: /dev/i2c-13 Device 1002:164E Subsystem: 1458:D000
+64144 |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73FF Subsystem: 1EAE:6505
+64144 |Info:    Registering I2C interface: /dev/i2c-11 Device 1002:164E Subsystem: 1458:D000
+64144 |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:73FF Subsystem: 1EAE:6505
+64144 |Info:    Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+64144 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+64144 |Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+64144 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+64144 |Info:    Registering I2C interface: /dev/i2c-16 Device 0000:0000 Subsystem: 0000:0000
+64144 |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:73FF Subsystem: 1EAE:6505
+64144 |Info:    Registering I2C interface: /dev/i2c-14 Device 1002:164E Subsystem: 1458:D000
+64144 |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73FF Subsystem: 1EAE:6505
+64144 |Info:    Registering I2C interface: /dev/i2c-12 Device 1002:164E Subsystem: 1458:D000
+64144 |Info:    ------------------------------------------------------
+64144 |Info:    |               Detecting I2C devices                |
+64144 |Info:    ------------------------------------------------------
+64176 |Info:    ------------------------------------------------------
+64176 |Info:    |               Detecting I2C PCI devices            |
+64176 |Info:    ------------------------------------------------------
+64176 |Info:    ------------------------------------------------------
+64176 |Info:    |               Detecting HID devices                |
+64176 |Info:    ------------------------------------------------------
+64351 |Info:    [B650 AORUS ELITE AX ICE] Registering RGB controller
+64352 |Info:    ------------------------------------------------------
+64352 |Info:    |            Detecting libusb HID devices            |
+64352 |Info:    ------------------------------------------------------
+64363 |Info:    ------------------------------------------------------
+64363 |Info:    |              Detecting other devices               |
+64363 |Info:    ------------------------------------------------------
+64364 |Info:    ------------------------------------------------------
+64364 |Info:    |                Detection completed                 |
+64364 |Info:    ------------------------------------------------------
