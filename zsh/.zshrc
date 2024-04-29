@@ -8,12 +8,12 @@ unsetopt autocd beep extendedglob
 bindkey -v
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/matiarch/.zshrc'
+zstyle :compinstall filename '/home/matias/.zshrc'
 
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-source /home/matiarch/.dotfiles/shell/aliases.sh
-source /home/matiarch/.dotfiles/shell/prompt.sh
+source /home/matias/.dotfiles/shell/aliases.sh
+source /home/matias/.dotfiles/shell/prompt.sh
 
 eval "$(zoxide init zsh)"

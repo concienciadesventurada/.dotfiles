@@ -1,3 +1,5 @@
 alias vi="nvim"
 alias bt="bluetoothctl"
 alias fu="sudo pacman -Suy --noconfirm"
+alias dot="cd $HOME/.dotfiles ; vi"
+alias tmux="tmux -f $TMUX_CONF"
