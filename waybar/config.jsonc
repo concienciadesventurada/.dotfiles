@@ -27,7 +27,8 @@
             "qbittorrent": "",
             "spotify": "",
             "galculator": "",
-            "minecraft": ""
+            "minecraft": "",
+            "virt-manager": ""
         },
         "show-special": true
     },
@@ -85,7 +86,7 @@
         "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_battery_percentage}%"
     },
     "network": {
-        "interface": "enp10s0",
+        "interface": "wlp9s0",
         "format-ethernet": "",
         "format-disconnected": "{ifname}",
         "tooltip-format": " {bandwidthDownBytes} <b>/</b>  {bandwidthUpBytes}",

@@ -17,3 +17,9 @@ source /home/matias/.dotfiles/shell/aliases.sh
 source /home/matias/.dotfiles/shell/prompt.sh
 
 eval "$(zoxide init zsh)"
+
+export PNPM_HOME="/home/matias/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
