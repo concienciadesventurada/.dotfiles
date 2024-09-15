@@ -13,6 +13,7 @@ zstyle :compinstall filename '/home/matias/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
 source /home/matias/.dotfiles/shell/aliases.sh
 source /home/matias/.dotfiles/shell/prompt.sh
 
@@ -23,3 +24,5 @@ case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
+
+export LIBVIRT_DEFAULT_URI='qemu:///system'
