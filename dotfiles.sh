@@ -6,7 +6,7 @@ main() {
     dots_dir=$HOME/.dotfiles
     conf_dir=$HOME/.config
 
-    git clone https://github.com/concienciadesventurada/dotfiles $dots_dir 
+    #git clone https://github.com/concienciadesventurada/dotfiles $dots_dir 
     git clone https://github.com/concienciadesventurada/nvim $conf_dir 
 
     for dir in */; do
