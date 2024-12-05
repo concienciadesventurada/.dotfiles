@@ -15,6 +15,8 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+source /home/matias/.cache/wal/colors.sh
+
 source /home/matias/.dotfiles/shell/aliases.sh
 source /home/matias/.dotfiles/shell/prompt.sh
 source /home/matias/.dotfiles/shell/dircolors.sh

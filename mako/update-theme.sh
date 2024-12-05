@@ -2,7 +2,7 @@
 
 . "${HOME}/.cache/wal/colors.sh"
 
-conffile="$XDG_CONFIG_HOME/mako/config"
+conffile="$HOME/.dotfiles/mako/config"
 
 # Associative array, color name -> color code.
 declare -A colors

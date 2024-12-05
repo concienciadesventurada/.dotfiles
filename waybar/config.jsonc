@@ -1,7 +1,7 @@
 [
     {
     "layer": "top",
-    "output": "HDMI-A-1",
+    "output": "DP-1",
     "modules-left": ["group/workspaces-container", "custom/separator", "hyprland/window", "hyprland/mode"],
     "modules-center": ["clock"],
     "modules-right": ["pulseaudio", "group/connectivity", "group/hardware", "hyprland/language", "tray"],
@@ -20,8 +20,7 @@
             "steam": "",
             "keepassxc": "",
             "libreoffice": "",
-            "discord": "",
-            "WebCord": "",
+            "vesktop": "",
             "slack": "",
             "vlc": "",
             "qbittorrent": "",
@@ -133,7 +132,7 @@
 },
     {
     "layer": "top",
-    "output": "HDMI-A-2",
+    "output": "HDMI-A-1",
     "modules-left": ["group/workspaces-container", "custom/separator", "hyprland/window", "hyprland/mode"],
     "modules-center": ["clock"],
     "modules-right": ["pulseaudio", "group/connectivity", "group/hardware", "hyprland/language", "tray"],
